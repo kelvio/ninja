@@ -5,14 +5,8 @@
  */
 package ninja.collection;
 
-import ninja.consumer.Consumer;
+import ninja.consumer.Consumes;
 
-
-
-/**
- *
- * @author kelvio
- */
 public interface Queue <T> {
     
     public static <T> Queue<T> of(T ... items) {
